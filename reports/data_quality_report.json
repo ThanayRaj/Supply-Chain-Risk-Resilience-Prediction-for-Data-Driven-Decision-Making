@@ -1,0 +1,322 @@
+{
+  "dataset_name": "DataCo Smart Supply Chain Analysis",
+  "total_records": 180519,
+  "total_columns": 53,
+  "duplicate_rows": 0,
+  "data_types": {
+    "str": 24,
+    "float64": 15,
+    "int64": 14
+  },
+  "columns_with_missing_values": {
+    "Customer Lname": {
+      "count": 8,
+      "percent": 0.0
+    },
+    "Customer Zipcode": {
+      "count": 3,
+      "percent": 0.0
+    },
+    "Order Zipcode": {
+      "count": 155679,
+      "percent": 86.24
+    },
+    "Product Description": {
+      "count": 180519,
+      "percent": 100.0
+    }
+  },
+  "numerical_column_count": 29,
+  "categorical_column_count": 24,
+  "statistical_summary": {
+    "Days for shipping (real)": {
+      "mean": 3.5,
+      "std": 1.62,
+      "min": 0.0,
+      "median": 3.0,
+      "max": 6.0
+    },
+    "Days for shipment (scheduled)": {
+      "mean": 2.93,
+      "std": 1.37,
+      "min": 0.0,
+      "median": 4.0,
+      "max": 4.0
+    },
+    "Benefit per order": {
+      "mean": 21.97,
+      "std": 104.43,
+      "min": -4274.98,
+      "median": 31.52,
+      "max": 911.8
+    },
+    "Sales per customer": {
+      "mean": 183.11,
+      "std": 120.04,
+      "min": 7.49,
+      "median": 163.99,
+      "max": 1939.99
+    },
+    "Late_delivery_risk": {
+      "mean": 0.55,
+      "std": 0.5,
+      "min": 0.0,
+      "median": 1.0,
+      "max": 1.0
+    },
+    "Category Id": {
+      "mean": 31.85,
+      "std": 15.64,
+      "min": 2.0,
+      "median": 29.0,
+      "max": 76.0
+    },
+    "Customer Id": {
+      "mean": 6691.38,
+      "std": 4162.92,
+      "min": 1.0,
+      "median": 6457.0,
+      "max": 20757.0
+    },
+    "Customer Zipcode": {
+      "mean": 35921.13,
+      "std": 37542.46,
+      "min": 603.0,
+      "median": 19380.0,
+      "max": 99205.0
+    },
+    "Department Id": {
+      "mean": 5.44,
+      "std": 1.63,
+      "min": 2.0,
+      "median": 5.0,
+      "max": 12.0
+    },
+    "Latitude": {
+      "mean": 29.72,
+      "std": 9.81,
+      "min": -33.94,
+      "median": 33.14,
+      "max": 48.78
+    },
+    "Longitude": {
+      "mean": -84.92,
+      "std": 21.43,
+      "min": -158.03,
+      "median": -76.85,
+      "max": 115.26
+    },
+    "Order Customer Id": {
+      "mean": 6691.38,
+      "std": 4162.92,
+      "min": 1.0,
+      "median": 6457.0,
+      "max": 20757.0
+    },
+    "Order Id": {
+      "mean": 36221.89,
+      "std": 21045.38,
+      "min": 1.0,
+      "median": 36140.0,
+      "max": 77204.0
+    },
+    "Order Item Cardprod Id": {
+      "mean": 692.51,
+      "std": 336.45,
+      "min": 19.0,
+      "median": 627.0,
+      "max": 1363.0
+    },
+    "Order Item Discount": {
+      "mean": 20.66,
+      "std": 21.8,
+      "min": 0.0,
+      "median": 14.0,
+      "max": 500.0
+    }
+  },
+  "outlier_analysis": {
+    "Days for shipping (real)": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Days for shipment (scheduled)": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Benefit per order": {
+      "outlier_count": 18942,
+      "pct": 10.49
+    },
+    "Sales per customer": {
+      "outlier_count": 1943,
+      "pct": 1.08
+    },
+    "Late_delivery_risk": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Category Id": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Customer Id": {
+      "outlier_count": 1198,
+      "pct": 0.66
+    },
+    "Customer Zipcode": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Department Id": {
+      "outlier_count": 362,
+      "pct": 0.2
+    },
+    "Latitude": {
+      "outlier_count": 9,
+      "pct": 0.0
+    },
+    "Longitude": {
+      "outlier_count": 1414,
+      "pct": 0.78
+    },
+    "Order Customer Id": {
+      "outlier_count": 1198,
+      "pct": 0.66
+    },
+    "Order Id": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Order Item Cardprod Id": {
+      "outlier_count": 0,
+      "pct": 0.0
+    },
+    "Order Item Discount": {
+      "outlier_count": 7537,
+      "pct": 4.18
+    }
+  },
+  "correlation_sample": {
+    "Days for shipping (real)": {
+      "Days for shipping (real)": 1.0,
+      "Days for shipment (scheduled)": 0.516,
+      "Benefit per order": -0.005,
+      "Sales per customer": 0.002,
+      "Late_delivery_risk": 0.401,
+      "Order Item Discount Rate": 0.001,
+      "Order Item Profit Ratio": -0.005,
+      "Order Item Quantity": -0.001,
+      "Sales": 0.002,
+      "Product Price": 0.002
+    },
+    "Days for shipment (scheduled)": {
+      "Days for shipping (real)": 0.516,
+      "Days for shipment (scheduled)": 1.0,
+      "Benefit per order": -0.0,
+      "Sales per customer": 0.006,
+      "Late_delivery_risk": -0.369,
+      "Order Item Discount Rate": 0.0,
+      "Order Item Profit Ratio": -0.002,
+      "Order Item Quantity": -0.003,
+      "Sales": 0.006,
+      "Product Price": 0.007
+    },
+    "Benefit per order": {
+      "Days for shipping (real)": -0.005,
+      "Days for shipment (scheduled)": -0.0,
+      "Benefit per order": 1.0,
+      "Sales per customer": 0.133,
+      "Late_delivery_risk": -0.004,
+      "Order Item Discount Rate": -0.019,
+      "Order Item Profit Ratio": 0.824,
+      "Order Item Quantity": 0.016,
+      "Sales": 0.132,
+      "Product Price": 0.103
+    },
+    "Sales per customer": {
+      "Days for shipping (real)": 0.002,
+      "Days for shipment (scheduled)": 0.006,
+      "Benefit per order": 0.133,
+      "Sales per customer": 1.0,
+      "Late_delivery_risk": -0.004,
+      "Order Item Discount Rate": -0.119,
+      "Order Item Profit Ratio": -0.001,
+      "Order Item Quantity": 0.105,
+      "Sales": 0.99,
+      "Product Price": 0.782
+    },
+    "Late_delivery_risk": {
+      "Days for shipping (real)": 0.401,
+      "Days for shipment (scheduled)": -0.369,
+      "Benefit per order": -0.004,
+      "Sales per customer": -0.004,
+      "Late_delivery_risk": 1.0,
+      "Order Item Discount Rate": 0.0,
+      "Order Item Profit Ratio": -0.002,
+      "Order Item Quantity": -0.0,
+      "Sales": -0.004,
+      "Product Price": -0.002
+    },
+    "Order Item Discount Rate": {
+      "Days for shipping (real)": 0.001,
+      "Days for shipment (scheduled)": 0.0,
+      "Benefit per order": -0.019,
+      "Sales per customer": -0.119,
+      "Late_delivery_risk": 0.0,
+      "Order Item Discount Rate": 1.0,
+      "Order Item Profit Ratio": -0.003,
+      "Order Item Quantity": -0.0,
+      "Sales": 0.0,
+      "Product Price": 0.0
+    },
+    "Order Item Profit Ratio": {
+      "Days for shipping (real)": -0.005,
+      "Days for shipment (scheduled)": -0.002,
+      "Benefit per order": 0.824,
+      "Sales per customer": -0.001,
+      "Late_delivery_risk": -0.002,
+      "Order Item Discount Rate": -0.003,
+      "Order Item Profit Ratio": 1.0,
+      "Order Item Quantity": 0.001,
+      "Sales": -0.002,
+      "Product Price": -0.002
+    },
+    "Order Item Quantity": {
+      "Days for shipping (real)": -0.001,
+      "Days for shipment (scheduled)": -0.003,
+      "Benefit per order": 0.016,
+      "Sales per customer": 0.105,
+      "Late_delivery_risk": -0.0,
+      "Order Item Discount Rate": -0.0,
+      "Order Item Profit Ratio": 0.001,
+      "Order Item Quantity": 1.0,
+      "Sales": 0.106,
+      "Product Price": -0.476
+    },
+    "Sales": {
+      "Days for shipping (real)": 0.002,
+      "Days for shipment (scheduled)": 0.006,
+      "Benefit per order": 0.132,
+      "Sales per customer": 0.99,
+      "Late_delivery_risk": -0.004,
+      "Order Item Discount Rate": 0.0,
+      "Order Item Profit Ratio": -0.002,
+      "Order Item Quantity": 0.106,
+      "Sales": 1.0,
+      "Product Price": 0.79
+    },
+    "Product Price": {
+      "Days for shipping (real)": 0.002,
+      "Days for shipment (scheduled)": 0.007,
+      "Benefit per order": 0.103,
+      "Sales per customer": 0.782,
+      "Late_delivery_risk": -0.002,
+      "Order Item Discount Rate": 0.0,
+      "Order Item Profit Ratio": -0.002,
+      "Order Item Quantity": -0.476,
+      "Sales": 0.79,
+      "Product Price": 1.0
+    }
+  }
+}
